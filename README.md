@@ -1,6 +1,6 @@
-# WebScraperPro
+# easy_web_scraper
 
-WebScraperPro is a Python web scraping tool that allows you to collect and analyze data from websites. The tool has been designed to be easy to use and allows you to extract data from websites with minimal coding required.
+easy_web_scraper is a Python web scraping tool that allows you to collect and analyze data from websites. The tool has been designed to be easy to use and allows you to extract data from websites with minimal coding required.
 
 ## Features
 
