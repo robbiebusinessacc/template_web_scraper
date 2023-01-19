@@ -1,3 +1,8 @@
+import sys, os
+script_path = os.path.realpath(os.path.dirname(__name__))
+os.chdir(script_path)
+sys.path.append("..")
+
 import unittest
 from easy_web_scraper.scraper import Scraper
 
