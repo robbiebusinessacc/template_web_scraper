@@ -22,7 +22,7 @@ Other:`pip install -r requirements.txt`
 
 1. `cd examples`
 
-2. `python example_usage.py`
+2. `python3 example_usage.py`
 
 
 The script will scrape the data from WHO website, parse the HTML and save the data to a CSV file.
@@ -31,7 +31,7 @@ The script will scrape the data from WHO website, parse the HTML and save the da
 
 To run the tests, use the following command:
 
-`python -m unittest discover -s tests/ -p "*_test.py"`
+`python3 -m unittest discover -s tests/ -p "*_test.py"`
 
 
 ## Contribution
