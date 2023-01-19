@@ -1,6 +1,7 @@
-import sys
-sys.path.append("path/to/my_web_scraper")
-
+import sys, os
+script_path = os.path.realpath(os.path.dirname(__name__))
+os.chdir(script_path)
+sys.path.append("..")
 
 from easy_web_scraper.scraper import Scraper
 from easy_web_scraper.parser import Parser
