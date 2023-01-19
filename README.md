@@ -10,6 +10,10 @@ easy_web_scraper is a Python web scraping tool that allows you to collect and an
 
 ## Installation
 
+1. Download the project as a zip file from GitHub
+2. Extract the files to your local machine
+3. Run the following command to install the required dependencies:
+
 `pip install -r requirements.txt`
 
 ## Usage
