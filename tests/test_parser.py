@@ -1,3 +1,7 @@
+import sys
+sys.path.append("path/to/my_web_scraper")
+
+
 import unittest
 from easy_web_scraper.parser import Parser
 
