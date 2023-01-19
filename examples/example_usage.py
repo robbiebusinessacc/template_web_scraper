@@ -1,6 +1,6 @@
-from my_web_scraper.scraper import Scraper
-from my_web_scraper.parser import Parser
-from my_web_scraper.data_storage import DataStorage
+from easy_web_scraper.scraper import Scraper
+from easy_web_scraper.parser import Parser
+from easy_web_scraper.data_storage import DataStorage
 
 # Create an instance of the Scraper class
 scraper = Scraper("https://www.who.int/covid-19/")
