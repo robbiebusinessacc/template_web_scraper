@@ -20,9 +20,9 @@ Other:`pip install -r requirements.txt`
 
 ## Usage
 
-`cd examples`
+1. `cd examples`
 
-`python example_usage.py`
+2. `python example_usage.py`
 
 
 The script will scrape the data from WHO website, parse the HTML and save the data to a CSV file.
