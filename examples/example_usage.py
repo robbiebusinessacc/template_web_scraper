@@ -14,7 +14,7 @@ parser = Parser(html)
 # Extract the data from the HTML
 data = parser.get_data()
 
-# Create an instance of the DataStorage class
+# Create an instance of the DataStorage class (This example is using covid-19 data)
 data_storage = DataStorage(data, "covid19_data.csv")
 
 # Save the data to a CSV file
