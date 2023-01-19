@@ -1,3 +1,7 @@
+import sys
+sys.path.append("path/to/my_web_scraper")
+
+
 from easy_web_scraper.scraper import Scraper
 from easy_web_scraper.parser import Parser
 from easy_web_scraper.data_storage import DataStorage
