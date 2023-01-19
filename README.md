@@ -1,1 +1,35 @@
-# my_web_scraper
+# WebScraperPro
+
+WebScraperPro is a Python web scraping tool that allows you to collect and analyze data from websites. The tool has been designed to be easy to use and allows you to extract data from websites with minimal coding required.
+
+## Features
+
+- Scrapes data from any website
+- Extracts data in a structured format
+- Saves data to a CSV file
+
+## Installation
+
+`pip install -r requirements.txt`
+
+## Usage
+
+`python example_usage.py`
+
+
+The script will scrape the data from WHO website, parse the HTML and save the data to a CSV file.
+
+## Tests
+
+To run the tests, use the following command:
+
+`python -m unittest discover -s tests/ -p "*_test.py"`
+
+
+## Contribution
+
+We welcome contributions to the project. If you have an idea for a new feature or have found a bug, please open an issue. If you would like to contribute to the code, please fork the repository and open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
