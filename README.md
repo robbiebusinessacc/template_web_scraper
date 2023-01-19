@@ -19,7 +19,9 @@ MacOS:`python3 -m pip install -r requirements.txt`
 Other:`pip install -r requirements.txt`
 
 ## Usage
+
 `cd examples`
+
 `python example_usage.py`
 
 
