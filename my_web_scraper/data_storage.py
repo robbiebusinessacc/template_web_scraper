@@ -7,7 +7,5 @@ class DataStorage:
 
     def to_csv(self):
         with open(self.file_name, 'w', newline='') as csvfile:
-            fieldnames = self.data[0].keys()
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-            writer.writeheader()
+            writer = csv.writer(csvfile)
             writer.writerows(self.data)
