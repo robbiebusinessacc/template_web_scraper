@@ -8,7 +8,7 @@ from template_web_scraper.parser import Parser
 from template_web_scraper.data_storage import DataStorage
 
 # Create an instance of the Scraper class
-scraper = Scraper("https://www.who.int/covid-19/")
+scraper = Scraper("https://www.worldometers.info/coronavirus/")
 
 # Get the HTML from the website
 html = scraper.get_html()
