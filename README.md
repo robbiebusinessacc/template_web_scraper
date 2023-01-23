@@ -25,7 +25,7 @@ Other:`pip install -r requirements.txt`
 2. `python3 example_usage.py`
 
 
-The script will scrape the data from WHO website, parse the HTML and save the data to a CSV file.
+The script will scrape the data from worldometers website, parse the HTML and save the data to a CSV file.
 
 ## Tests
 
