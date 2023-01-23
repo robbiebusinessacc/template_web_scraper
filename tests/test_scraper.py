@@ -4,7 +4,7 @@ os.chdir(script_path)
 sys.path.append("..")
 
 import unittest
-from easy_web_scraper.scraper import Scraper
+from template_web_scraper.scraper import Scraper
 
 class TestScraper(unittest.TestCase):
     def test_get_html(self):
