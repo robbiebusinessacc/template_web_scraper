@@ -20,7 +20,7 @@ parser = Parser(html)
 data = parser.get_data()
 
 # Create an instance of the DataStorage class
-data_storage = DataStorage(data, "covid19_data.csv")
+data_storage = DataStorage(data, "example_output.csv")
 
 # Save the data to a CSV file
 data_storage.to_csv()
