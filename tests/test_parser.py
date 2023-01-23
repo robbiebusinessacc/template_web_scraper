@@ -5,7 +5,7 @@ sys.path.append("..")
 
 
 import unittest
-from easy_web_scraper.parser import Parser
+from template_web_scraper.parser import Parser
 
 class TestParser(unittest.TestCase):
     def test_get_data(self):
