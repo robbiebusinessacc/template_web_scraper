@@ -3,9 +3,9 @@ script_path = os.path.realpath(os.path.dirname(__name__))
 os.chdir(script_path)
 sys.path.append("..")
 
-from easy_web_scraper.scraper import Scraper
-from easy_web_scraper.parser import Parser
-from easy_web_scraper.data_storage import DataStorage
+from template_web_scraper.scraper import Scraper
+from template_web_scraper.parser import Parser
+from template_web_scraper.data_storage import DataStorage
 
 # Create an instance of the Scraper class
 scraper = Scraper("https://www.who.int/covid-19/")
